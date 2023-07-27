@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./styles.css";
 
-function App() {
+//session1-takehome
+// import { Profile } from "./session1-takehome/UserDashboard";
+
+//session2-takehome
+// import { DogPics } from "./session2-takehome/DogPics";
+
+//session3-takehome
+// import { BookAppointment } from "./session3-takehome/BookAppointment";
+
+//session10-Interview Challange
+import { WeatherApp } from "./Interview-Challenge/WeatherApp";
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Profile /> */}
+      {/* <DogPics /> */}
+      {/* <BookAppointment /> */}
+      <WeatherApp />
     </div>
   );
 }
-
-export default App;

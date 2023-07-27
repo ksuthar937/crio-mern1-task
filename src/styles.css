@@ -1,0 +1,89 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.userData {
+  border: black solid 3px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 500px;
+  height: 500px;
+}
+
+button {
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  border-color: rgb(0, 110, 255);
+}
+.nameText {
+  color: goldenrod;
+  font-family: "Times New Roman", Times, serif;
+}
+
+div > img {
+  padding: 20px;
+  width: 50%;
+}
+
+.topSelection {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  padding: 10px;
+  /* background-color: antiquewhite; */
+}
+
+.dogImages {
+  width: 400px;
+  height: 400px;
+  padding-top: 5px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+.nextButton {
+  display: flex;
+  margin: 0px;
+  padding: 5px;
+}
+.nextButton:hover {
+  cursor: pointer;
+}
+
+#dropdown:hover {
+  cursor: pointer;
+}
+
+.confirm {
+  font-weight: bold;
+  margin-left: 0px;
+  margin-top: 8px;
+  padding: 2px;
+}
+
+.cancel {
+  font-weight: bold;
+  margin-left: 2px;
+  margin-top: 5px;
+  padding: 3px;
+}
+.main {
+  width: 40vw;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .main {
+    width: 90vw;
+  }
+}
